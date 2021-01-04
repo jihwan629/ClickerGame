@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:text="이미지를 터치하여 경험치를 쌓으세요!" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:text="이름 : ssafy"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/tv_point"
+            android:textSize="20dp"
+            android:text="현재까지 모은 경험치 : 0"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/tv_skill"
+            android:text="한번 누를 때 마다 얻는 경험치 : 50"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ssafy"
+            android:layout_weight="7.5"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
